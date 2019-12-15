@@ -1,0 +1,55 @@
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+
+brew "ack"
+brew "awscli"
+brew "bash"
+brew "bash-completion2"
+brew "coreutils"
+brew "fork-cleaner"
+brew "ffmpeg"
+brew "git"
+brew "git-crypt"
+brew "openssl"
+brew "gnupg"
+brew "go"
+brew "nginx", restart_service: true
+brew "node"
+brew "nvm"
+brew "postgres@10"
+brew "python"
+brew "redis"
+brew "terraform@0.11"
+brew "the_silver_searcher"
+brew "tree"
+brew "wget"
+brew "zsh"
+
+
+# Apps
+cask "1password"
+cask "alfred"
+cask "brave-browser"
+cask "docker"
+cask "dropbox"
+cask "firefox"
+cask "firefox-developer-edition"
+cask "google-chrome"
+cask "google-drive-file-stream"
+cask "iterm2"
+cask "nordvpn"
+cask "slack"
+cask "spotify"
+cask "the-unarchiver"
+cask "tor-browser"
+cask "transmission"
+cask "vagrant"
+cask "visual-studio-code"
+cask "vlc"
+
+# Mac App Store
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825
